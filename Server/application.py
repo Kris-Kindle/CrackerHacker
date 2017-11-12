@@ -32,3 +32,15 @@ def uploads():
 @app.route('/Cheeseit', methods=['GET','POST'])
 def cheese():
     return render_template('Cheeseit.html')
+
+@app.route('/GrahamCracker', methods=['GET','POST'])
+def GrahamCracker():
+    return render_template('Grahamcipe.html')
+
+@app.route('/Ritz', methods=['GET','POST'])
+def Ritz():
+    return render_template('RITZipe.html')
+
+@app.route('/Triscuit', methods=['GET','POST'])
+def Triscuits():
+    return render_template('Triscuitcipe.html')
