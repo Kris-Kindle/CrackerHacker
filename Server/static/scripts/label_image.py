@@ -127,5 +127,8 @@ if __name__ == "__main__":
 
   top_k = results.argsort()[-5:][::-1]
   labels = load_labels(label_file)
+def cracker():
   for i in top_k:
-    print(labels[i], results[i])
+      if i == 0:
+          cracker = labels[i]
+          return(cracker)
